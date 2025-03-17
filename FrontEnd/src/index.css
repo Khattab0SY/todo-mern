@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0d0714;
+  --color-primary: #15101c;
+  --color-secondary: #9e78cf;
+  --color-disable: #3e1671;
+}
+:root {
+  @apply bg-background text-secondary;
+}
